@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dialog type="Begin">
+<processUnstructuredSSRequest_Request dataCodingScheme="15" string="*466#">
+<msisdn number="93700805069" nai="international_number" npi="ISDN"/>
+</processUnstructuredSSRequest_Request>
+</dialog>

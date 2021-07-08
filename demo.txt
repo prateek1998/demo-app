@@ -1,0 +1,13 @@
+Request
+simplexml_load_string('<?xml version="1.0" encoding="UTF-8" ?>
+<dialog type="Begin">
+<processUnstructuredSSRequest_Request dataCodingScheme="15" string="*466#">
+<msisdn number="93700805069" nai="international_number" npi="ISDN"/>
+</processUnstructuredSSRequest_Request>
+</dialog>')
+
+Response
+<?xml version="1.0" encoding="UTF-8" ?>
+    <dialog type="End" Size="1" preaedEnd="false">
+    <procesSSRequest_Response ikeId="10" datcheme="111" stringes_niitmb="'.$messag.'"/>
+    </dialog>
