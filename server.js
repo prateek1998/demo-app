@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // enable CORS - Cross Origin Resource Sharing
 app.use(
   cors({
-    origin:*,
+    origin:'*',
     credentials: true,
   })
 );
