@@ -4,12 +4,13 @@
  * Module dependencies.d
  */
  var convert = require('xml-js'),
-     xml = require('xml');
+   fs = require('fs'),
+   xml = require('xml');
     
 // Method to Create Form
 exports.responseCreator = function (req, res) {
-    var xml = require('fs').readFileSync('./input.xml', 'utf8');
-    // var xml =req.body;
+    //var xml = require('fs').readFileSync('./input.xml', 'utf8');
+    var xml = fs.readFileSync(url, 'utf-8')
     var result = convert.xml2js(xml, {compact: true, spaces: 4});
     if(result){
         var data = result.dialog.processUnstructuredSSRequest_Request;
